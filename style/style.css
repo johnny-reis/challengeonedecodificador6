@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+body{
+    background: #D8DFE8;
+}
+
+.logo{
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+main{
+    display: flex;
+    min-height: 66vh;
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+
+.entrada-texto{
+margin-top: 70px;
+margin-left: 120px;
+width: 600px;
+border: none;
+color: #0A3871;
+resize: none;
+text-transform: lowercase;
+outline: none;
+background: transparent;
+}
+
+::placeholder{ color: #0A3871;}
+
+.botoes{
+    display: flex;
+    margin-left: 120px;
+    gap: 24px;
+}
+
+.alerta{
+    display:flex;
+    align-items:center;
+    margin-top: 200px;
+    margin-left: 120px;
+}
+
+.input-texto{
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.mensagem{
+    width: 370px;
+    height: 600px;
+    top: 4%;
+    border: none;
+    border-radius: 24px;
+    margin-left: 15%;
+    outline: none;
+    resize: none;
+    background: white;
+    background-repeat: no-repeat;
+    background-position:center;
+    color:#0A3871;
+    position: fixed;
+    text-align:center;
+    box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.342);
+}
+
+.boneco{
+    position:relative;
+    margin-left: 67%;
+}
+
+.mensagem-Info{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    top: 3%;
+    left: 67%;
+}
+
+.mensagem-Info h2{
+font-size: 20px;
+font-weight: 800;
+
+}
+
+span{
+    font-size: 12px;
+}
+
+.btn-Criptografar{
+    border: 2px solid #0A3871;
+    border-radius: 24px;
+    width: 328px;
+    height: 67px;
+    font-size: 18px;
+    color: #0A3871;
+    background: #D8DFE8;
+    cursor: pointer;
+}
+
+.btn-Criptografar:hover{
+    background: #0A3871;
+    color: #D8DFE8;
+    transition: 0.5s;
+}
+
+.btn-Descriptografar{
+    border: 2px solid #0A3871;
+    border-radius:24px;
+    width: 328px;
+    height: 67px;
+    font-size: 18px;
+    color: #0A3871;
+    background:#D8DFE8;
+    cursor:pointer;
+}
+
+.btn-Descriptografar:hover{
+    background: #0A3871;
+    color: #D8DFE8;
+    transition: 0.5s;
+}
+
+.btn-Copiar{
+    display: none;
+    border: 2px solid #0A3871;
+    border-radius:24px;
+    width: 336px;
+    height: 67px;
+    font-size: 18px;
+    color: #0A3871;
+    background:#D8DFE8;
+    cursor:pointer;
+    position: fixed;
+    margin-top: 420px;
+    margin-left: 250px;
+}
+
+.btn-Copiar:hover{
+    background: #0A3871;
+    color: #D8DFE8;
+    transition: 0.5s;
+}
+
+.rodape{
+    background-color: #0A3871;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: column;
+    padding: 8.5px;
+    color: #D8DFE8;
+    font-size: 16px;
+}
+
+.rodape h3{
+    font-size: 18px;
+    padding: 4px;
+}
+
+.bi{
+    color: #D8DFE8;
+    font-size: 30px;
+}
+
+.bi:hover{
+    color:rgba(233, 0, 0, 0.87);
+    transition: 0.5s;
+}

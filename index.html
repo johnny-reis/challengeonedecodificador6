@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="icon" type="image/x-icon" href="imagens/logo.png">
+    <title>Decodificador</title>
+</head>
+<body>
+    <header>
+        <img src="./imagens/logo.png" class="logo" alt="logo da alura">
+    </header>
+    
+    <main>
+        
+        <section>
+            <textarea class="entrada-texto"  placeholder="Digite seu texto aqui."></textarea>
+            
+            <div class="alerta">
+                <img src="imagens/alerta.png" alt="alerta">
+                <h2 class="input-texto">Apenas letras minusculas e sem acento</h2>
+            </div>
+            
+            <div class="botoes">
+                <button class="btn-Criptografar" onclick ="btnEncriptar()">Criptografar</button>
+                <button class="btn-Descriptografar" onclick="btnDesencriptar()">Descriptografar</button>
+            </div>
+
+        </section>
+        
+        <section>
+            <textarea class="mensagem"></textarea>
+            <img src="imagens/pessoa.png" class="boneco">
+            <button class="btn-Copiar" onclick="copiar()">Copiar</button>
+            <div class="mensagem-Info">
+            <h2>Nenhuma mensagem encontrada.</h2>
+            <span>Digite um texto que você deseja criptografar ou descriptografar.</span>
+            </div>
+        </section>
+    
+    </main>
+
+    <footer class="rodape">
+        <div class="icones">
+            <a href="https://github.com/johnny-reis" target="_blank" <i class="bi bi-github"></i></a>
+            <a href="https://www.instagram.com/jhowandrade10/" target="_blank"<i class="bi bi-instagram"></i></a>
+            <a href="https://www.linkedin.com/feed/?trk=nav_back_to_linkedin/" target="_blank"<i class="bi bi-linkedin"></i></a>
+        </div>
+        <h3>Desenvolvido por Jonathan.</h3>
+    </footer>
+
+    <script src="./script.js"></script>
+    
+</html>
